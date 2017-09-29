@@ -1,0 +1,12 @@
+<!ELEMENT etudiants (etudiant*, note*)>
+<!ELEMENT etudiant (nom, prenom, adr_mail, tel*, age?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT adr_mail (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ATTLIST etudiant
+  login ID #REQUIRED
+  password CDATA #IMPLIED>
+<!ATTLIST note login IDREF #REQUIRED>

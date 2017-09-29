@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE etudiants SYSTEM "etudiant2.dtd">
+<etudiants
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="etudiant2.xsd">
+<!-- <etudiants> -->
+	<etudiant login="Jeres1" password="motdepasse">
+		<nom>Boiselet</nom>
+		<prenom>Jeres</prenom>
+		<adr_mail>boiselet.jeremy@gmail.com</adr_mail>
+		<tel>07 80 31 63 48</tel>
+		<age>20</age>
+	</etudiant>
+	<etudiant login="Tetelo">
+		<nom>Dupont</nom>
+		<prenom>Théo</prenom>
+		<adr_mail>dupont.tete@gmail.com</adr_mail>
+		<tel>06 02 45 48 95</tel>
+		<age>20</age>
+	</etudiant>
+	<etudiant login="JFmarabout" password="easy">
+		<nom>Tetchi</nom>
+		<prenom>Jean-François</prenom>
+		<adr_mail>tetchi.jf@gmail.com</adr_mail>
+		<tel>06 02 12 95 74</tel>
+		<tel>06 52 48 56 32</tel>
+	</etudiant>
+	<etudiant login="Tristan">
+		<nom>Le Lièvre-Ropers</nom>
+		<prenom>Tristan</prenom>
+		<adr_mail>tristan.lelivre@gmail.com</adr_mail>
+		<tel>06 02 65 98 84</tel>
+	</etudiant>
+	<etudiant login="Lancelot" password="jelanceleau">
+		<nom>Le Meur</nom>
+		<prenom>Lancelot</prenom>
+		<adr_mail>lancelot.le-meur@gmail.com</adr_mail>
+		<age>20</age>
+	</etudiant>
+	<note login="Jeres1">20</note>
+	<note login="Jeres1">15</note>
+	<note login="JFmarabout">14</note>
+	<note login="Lancelot">16</note>
+	<note login="Lancelot">12</note>
+	<note login="JFmarabout">17</note>
+	<note login="Jeres1">18</note>
+	<note login="Tristan">18</note>
+	<note login="Tristan">12</note>
+	<note login="Tetelo">13</note>
+	<note login="Tetelo">19</note>
+</etudiants>
