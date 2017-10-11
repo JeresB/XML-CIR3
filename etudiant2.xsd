@@ -17,7 +17,7 @@
     </xsd:keyref>
   </xsd:element>
   <xsd:simpleType name="TNote">
-    <xsd:restriction base="xsd:int">
+    <xsd:restriction base="xsd:decimal">
       <xsd:minInclusive value="0"/>
       <xsd:maxInclusive value="20"/>
     </xsd:restriction>
